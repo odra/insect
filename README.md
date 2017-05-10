@@ -1,4 +1,4 @@
-# Instect
+# Insect
 
 Insect enables you to auto-install modules byt importing them into your code, no need to run pip or easy_install to do so.
 
