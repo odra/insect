@@ -28,7 +28,7 @@ You only need to import insect and call the `load` function to import and instal
 ```py
 import insect
 
-requets = insect.load('requests') #same as import requests
+requests = insect.load('requests') #same as import requests
 
 print(requests.get('http//www.google.com').text)
 ```
@@ -37,7 +37,7 @@ print(requests.get('http//www.google.com').text)
 ```py
 import insect
 
-requets = insect.load('requests', version='')
+requests = insect.load('requests', version='')
 
 print(requests.get('http//www.google.com').text)
 ```

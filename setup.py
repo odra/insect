@@ -9,5 +9,15 @@ setup(
   author='Leonardo Rossetti',
   author_email='me@lrossetti.com',
   url='https://github.com/odra/insect',
-  packages=find_packages()
+  download_url='https://github.com/odra/insect/archive/master.zip',
+  packages=find_packages(),
+  keywords=['importlib', 'import', 'auto-import'],
+  classifiers=[
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Plugins',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Software Development',
+    'Topic :: Utilities'
+  ]
 )
