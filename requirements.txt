@@ -1,0 +1,4 @@
+py==1.4.33
+pytest==3.0.7
+pytest-sugar==0.8.0
+termcolor==1.1.0
