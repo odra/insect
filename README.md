@@ -66,7 +66,7 @@ import insect
 requests = load('requests', url='git+ssh://git@github.com/kennethreitz/requests.git')
 
 print(requests.get('http//www.google.com').text)
-``
+```
 
 
 ## License
